@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Clock 시:분:초 -->
+    <h1 id="clock">00:00:00</h1>
+
+    <!-- 투두 입력 -->
+    <form id="todoform" action="">
+        <input type="text" placeholder="투두를 입력하세요">
+        <input type="submit" value="투두">
+    </form>
+
+    <!-- To do 리스트 현재 전체 개수 / 체크된 개수 띄우기 -->
+    <h1 id="state">전체 할일 0 | 완료한 할일 0 </h1>
+    <h2 id="state1">전체 할일 : 0 | 완료한 할일 : 0</h2>
+
+    <!-- To do 리스트 표시 (체크박스+할일+삭제버튼) -->
+    <ul id="todolist"></ul>
+
+<script src="js/clock.js"></script>
+<script src="js/todolist.js"></script>
+</body>
+</html>
